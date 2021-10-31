@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== MAIN ========== */
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #1b1b1b;
+}
+
+/* ==================== HOME PAGE ==================== */
+
+/* ========== Header ========== */
+
+header {
+  padding: 1.3rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 250px;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-inline: 1.3rem;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  color: #34a4ff;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  background: #34a4ff;
+  transition: all 0.2s ease;
+}
+
+.contact-button a:hover {
+  background: #2a79b9;
+}
+
+/* ========== Special Offers ========== */
+
+.special-offers img,
+.gallery img {
+  width: 250px;
+  height: 350px;
+  padding: 1rem;
+  padding: 10px;
+  transition: translate 0.2s ease-in-out;
+}
+
+.special-offers img:hover {
+  translate: 0 1rem;
+}
+
+.special-offers,
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem 10%;
+}
+
+/* ==================== About PAGE ==================== */
+
+/* ========== About Info ========== */
+.about-info {
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-info h1,
+p {
+  color: #eee;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.about-info h1,
+.map-info h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  letter-spacing: -0.5px;
+  color: #76a5fc;
+  text-align: center;
+}
+
+.about-info p {
+  font-size: 1.2rem;
+}
+
+/* ==================== MAP PAGE ==================== */
+
+/* ========== Map ========== */
+.map {
+  padding: 5rem 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map img {
+  width: 800px;
+  border: 5px solid #76a5fc;
+}
+
+/*==================== Contact Page =======================*/
+
+.Mall-contact {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.form ul li {
+  display: inline-block;
+}
+
+.contact-icon ul li p {
+  display: block;
+  font-size: 15px;
+}
+.contact-icon i {
+  font-size: 32px;
+  color: rgb(9, 0, 58);
+}
+
+.form {
+  border: 1px solid rgb(9, 0, 58);
+  background-color: rgb(255, 255, 255, 0.4);
+}
+.form input,
+.form textarea,
+#sub-btn {
+  display: block;
+  border: none;
+  margin: 5% auto;
+  width: 90%;
+  padding: 2%;
+}
+
+.form input,
+.form textarea {
+  background-color: white;
+}
+::placeholder {
+  color: rgb(9, 0, 58);
+  font-size: 20px;
+}
+
+#sub-btn {
+  color: white;
+  background-color: rgb(9, 0, 58);
+  width: 50%;
+}
+#sub-btn:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  color: #76a5fc;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+/*==================== Store Page =======================*/
+
+/* ========== Sections ========== */
+.row {
+  display: flex;
+  padding: 1rem 10%;
+}
+
+.col img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+}
+
+.cat {
+  color: #eee;
+  padding: 1rem;
+  text-decoration: underline;
+}
+
+.col {
+  display: flex;
+  flex: 30%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #fff;
+  margin: 1rem;
+}
+
+.col a {
+  text-decoration: none;
+  color: #3459ff;
+  margin: 1rem;
+  transition: color 0.2s ease;
+}
+
+.col a:hover {
+  color: #ffffff;
+}
+
+/*============ MOVIES INDEX ============*/
+
+.movie-box {
+  margin-inline: 8%;
+}
+
+.movie-box a {
+  text-decoration: none;
+}
+
+.container-movie {
+  padding: 2rem 0;
+}
+
+.movie {
+  background: rgba(0, 174, 255, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.movie:hover {
+  translate: 0 -10px;
+  background: rgba(0, 119, 255, 0.9);
+}
+
+.movie-info {
+  margin-left: 1.4rem;
+  color: #eee;
+}
+
+.age {
+  display: flex;
+  align-items: center;
+}
+
+.image-movie img {
+  width: 250px;
+}
+
+/*============ MOVIES ABOUT INFO ============*/
+
+.movie-container {
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.movie-container h1 {
+  padding: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #eee;
+}
+
+.movie-container img {
+  width: 650px;
+  border: 3px solid #34a4ff;
+}
+
+.trailer {
+  padding: 1rem 3rem;
+  background: #34a4ff;
+  border-radius: 10px;
+  margin: 1rem;
+  transition: background 0.2s ease;
+}
+
+.trailer:hover {
+  background: #2a79b9;
+}
+
+.trailer a {
+  display: block;
+  text-decoration: none;
+  color: #eee;
+  font-weight: 500;
+}
+
+.movie-about p {
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+.movie-about {
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 80%;
+  background: #5160a1;
+}
+
+/*============ STORE INFO PAGES ============*/
+
+.store-container {
+  padding: 1rem 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.store-container h1 {
+  padding: 1rem;
+  color: #eee;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.store-container p {
+  max-width: 850px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.store-container img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
